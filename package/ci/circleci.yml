@@ -259,17 +259,17 @@ workflows:
   version: 2
   build:
     jobs:
-    - base-linux
-    - base-macos
-    - base-glfw-linux
-    - base-gtkmm-linux
-    - base-wxwidgets-linux
+    #- base-linux
+    #- base-macos
+    #- base-glfw-linux
+    #- base-gtkmm-linux
+    #- base-wxwidgets-linux
     - base-qt-linux
-    - windowless-linux
-    - windowless-macos
-    - scenegraph2D-linux
-    - scenegraph3D-linux
-    - base-emscripten-webgl1
-    - base-emscripten-webgl2
-    - windowless-emscripten-webgl1
-    - windowless-emscripten-webgl2
+    #- windowless-linux
+    #- windowless-macos
+    #- scenegraph2D-linux
+    #- scenegraph3D-linux
+    #- base-emscripten-webgl1
+    #- base-emscripten-webgl2
+    #- windowless-emscripten-webgl1
+    #- windowless-emscripten-webgl2
